@@ -1,13 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:wght@300;400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* setting the defaults to 0 */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+input,
+button,
+textarea {
+  border: 0;
+  outline: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* Colors */
+  --color-primary-logo: #186aa5;
+  --link-color: #14395b;
+  --main-color: #2289ff;
+  --hover-color: #e8ebf4;
+
+  /* sizes */
+  --size-logo-header: 2.8rem;
+
+  /* font-families */
+  --font-family-logo-header: "Josefin Sans", sans-serif;
+  --heading-button: "Josefin Sans", sans-serif;
+  --body-text: "Lato", sans-serif;
+}
+header {
+  padding: 0 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header .header-container {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: var(--color-primary-logo);
+  font-size: var(--size-logo-header);
+  font-weight: 700;
+}
+
+nav.nav-links ul {
+  list-style-type: none;
+}
+nav.nav-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav.nav-links ul li a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--body-text);
+  padding: 10px;
+  border-radius: 14px;
+}
+nav.nav-links ul li a:hover {
+  background-color: var(--hover-color);
+}
+.saved-search {
+  position: relative;
+  display: flex;
+}
+.saved-search input {
+  border-radius: 1.8rem;
+  min-height: 30px;
+  padding: 5px;
+  padding-left: 30px;
+  border: 2px solid #707070;
+}
+.saved-search input::placeholder {
+  font-family: var(--body-text);
+  color: #111;
+  font-weight: 400;
+}
+.saved-search input:focus {
+  z-index: 2;
+  background-color: white;
+  border: 2px solid var(--color-primary-logo);
+  outline: 0;
+}
+.search-icon {
+  font-size: 2rem;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.notification-icon {
+  background-color: var(--hover-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+.bell {
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--main-color);
+}
+.user-login button {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px 30px;
+  border-radius: 14px;
+  cursor: pointer;
 }

@@ -42,7 +42,6 @@ textarea {
 }
 header {
   padding: 0 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 header .header-container {
   min-height: 80px;
@@ -124,4 +123,40 @@ nav.nav-links ul li a:hover {
   padding: 10px 30px;
   border-radius: 14px;
   cursor: pointer;
+}
+
+.hero {
+  padding: 20px 50px;
+}
+
+.hero-container {
+  width: 100%;
+  background: url(./components/assets/hero-bg-image.png) no-repeat center right;
+  background-size: 65%;
+  aspect-ratio: 21/9;
+  display: flex;
+  align-items: center;
+}
+.hero-title {
+  background: #fff;
+  min-width: 60%;
+  border-radius: 76px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: -10%;
+  padding-left: calc(10% + 50px);
+}
+
+.hero-heading {
+  font-size: 8.8rem;
+  margin: 0;
+}
+.hero-heading-span {
+  display: block;
+}
+
+.hero-heading-span1 {
+}
+.hero-sub-heading {
+  font-size: 2rem;
 }

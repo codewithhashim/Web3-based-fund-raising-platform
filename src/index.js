@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Navbar from './components/header';
 import Hero from './components/hero';
+import Types from './components/apartmentTypes';
 
 
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
     <>
     <Navbar />
     <Hero />
+    <Types />
     </>
   )
 }

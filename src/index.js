@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './components/header';
 import Hero from './components/hero';
 import Types from './components/apartmentTypes';
+import AptPlans from './components/aptPlans';
 
 
 function Home(){
@@ -12,6 +13,7 @@ function Home(){
     <Navbar />
     <Hero />
     <Types />
+    <AptPlans />
     </>
   )
 }

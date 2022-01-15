@@ -11,38 +11,43 @@ function Types() {
         <div className="types-heading">
           <h3>
             How would you like your <br />
-            Dream Apartment
+            <span>Dream Apartment</span>
           </h3>
-          <span className="types-span">Select apartment types below</span>
+          <p className="types-span">Select apartment types below</p>
         </div>
         <div className="types-boxes">
           <div className="types-box">
             <div className="types-box-img">
-              <img src={delux} alt="" />
-              <h4>Deluxe Apartment</h4>
+              <a href="/">
+                <img src={delux} alt="" />
+                <h4>Deluxe Apartment</h4>
+              </a>
             </div>
           </div>
           <div className="types-box">
             <div className="types-box-img">
-              <img src={top_} alt="" />
-              <h4>Double Apartment</h4>
+              <a href="/">
+                <img src={top_} alt="" />
+                <h4>Double Apartment</h4>
+              </a>
             </div>
           </div>
           <div className="types-box">
             <div className="types-box-img">
-              <img src={top_1} alt="" />
-              <h4>Penthouse Apartment</h4>
+              <a href="/">
+                <img src={top_1} alt="" />
+                <h4>Penthouse Apartment</h4>
+              </a>
             </div>
           </div>
           <div className="types-box">
             <div className="types-box-img">
-              <img src={studio} alt="" />
-              <h4>Studio Apartment</h4>
+              <a href="/">
+                <img src={studio} alt="" />
+                <h4>Studio Apartment</h4>
+              </a>
             </div>
           </div>
-        </div>
-        <div className="types-btn">
-          <a href="/">Continue</a>
         </div>
       </div>
     </section>

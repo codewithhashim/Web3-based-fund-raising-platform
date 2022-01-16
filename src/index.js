@@ -5,6 +5,7 @@ import Navbar from './components/header';
 import Hero from './components/hero';
 import Types from './components/apartmentTypes';
 import AptPlans from './components/aptPlans';
+import Footer from './components/footer';
 
 
 function Home(){
@@ -14,6 +15,8 @@ function Home(){
     <Hero />
     <Types />
     <AptPlans />
+
+    <Footer />
     </>
   )
 }

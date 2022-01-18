@@ -1,38 +1,49 @@
 // Navbar jsx
 import { AiOutlineBell } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
-function Navbar() {
+// import About from "../pages/about";
+// import Featured from "../pages/featured";
+// import Contact from "../pages/contact";
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+function Header() {
   return (
     <header>
       <div className="header-container">
         <div className="logo">
-          <a href="/">WebParrots</a>
+          <Link to="/">WebParrots</Link>
         </div>
-        <nav className="nav-links">
+      
+     
+          <nav className="nav-links">
           <ul>
             <li>
-              <a href="/" className="nav-link">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <Link to="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <Link to="/featured" className="nav-link">
                 Featured
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="/" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
+
+      
         <div className="saved-search">
           <AiOutlineSearch className="search-icon" />
           <input type="search" name="" id="" placeholder="Saved Search" />
@@ -48,4 +59,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;

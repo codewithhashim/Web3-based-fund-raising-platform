@@ -1,0 +1,21 @@
+.apt-features {
+  padding: 20px 50px;
+}
+.features-heading h3 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin: 30px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.features-boxes {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -ms-grid-column: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.features-box-text {
+  display: none;
+}

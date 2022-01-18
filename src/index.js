@@ -1,31 +1,18 @@
- 
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Navbar from './components/header';
-import Hero from './components/hero';
-import Types from './components/apartmentTypes';
-import AptPlans from './components/aptPlans';
-import Footer from './components/footer';
-
-
-function Home(){
-  return(
-    <>
-    <Navbar />
-    <Hero />
-    <Types />
-    <AptPlans />
-
-    <Footer />
-    </>
-  )
-}
-
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <Home />,
-
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

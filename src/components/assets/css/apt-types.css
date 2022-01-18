@@ -37,6 +37,7 @@
   padding: 20px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 .types-box-img a:hover {
   box-shadow: none;

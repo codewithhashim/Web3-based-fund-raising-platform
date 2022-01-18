@@ -4,7 +4,7 @@ import top_ from "./assets/top_.png";
 import top_1 from "./assets/top_-1.png";
 import "./assets/css/apt-types.css";
 
-function Types() {
+function AptTypes() {
   return (
     <section className="types">
       <div className="types-container">
@@ -54,4 +54,4 @@ function Types() {
   );
 }
 
-export default Types;
+export default AptTypes;

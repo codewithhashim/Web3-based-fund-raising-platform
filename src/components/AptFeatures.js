@@ -1,5 +1,5 @@
 // import css
-import "./assets/css/apt-features.css";
+import "./assets/css/home/apt-features.css";
 import parking from "./assets/parking.png";
 import security from "./assets/security.png";
 import health from "./assets/health.png";

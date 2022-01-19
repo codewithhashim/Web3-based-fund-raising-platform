@@ -1,5 +1,5 @@
 // function header component
-import "./assets/css/hero.css";
+import "./assets/css/home/hero.css";
 
 function Hero() {
   return (

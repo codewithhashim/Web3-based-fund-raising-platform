@@ -1,4 +1,4 @@
-import "./assets/css/apt-plans.css";
+import "./assets/css/home/apt-plans.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import deluxeBp from "./assets/deluxbp.png";

@@ -2,7 +2,7 @@ import delux from "./assets/delux.png";
 import studio from "./assets/studio.png";
 import top_ from "./assets/top_.png";
 import top_1 from "./assets/top_-1.png";
-import "./assets/css/apt-types.css";
+import "./assets/css/home/apt-types.css";
 
 function AptTypes() {
   return (

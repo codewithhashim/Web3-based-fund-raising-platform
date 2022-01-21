@@ -92,6 +92,18 @@ function Contact() {
             name="_autoresponse"
             value="This is an auto response from the team Builders, we are working hard to get back to you as soon as possible."
           ></input>
+          <input type="hidden" name="_template" value="table"></input>
+          <input
+            type="hidden"
+            name="_cc"
+            value="abdulbasitpc33@gmail.com "
+          ></input>
+          <input
+            type="hidden"
+            name="_cc"
+            value="prohashim4e@gmail.com "
+          ></input>
+
           <Button variant="primary" type="submit">
             Say Hello
           </Button>

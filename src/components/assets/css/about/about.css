@@ -1,0 +1,34 @@
+.about-container {
+  min-height: calc(100vh - 80px);
+  background-image: url("../../about-bg.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 0 50px;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  color: #2289ff;
+}
+.contact-btn {
+  background-color: #2289ff;
+  color: #fff;
+  font-size: 2rem;
+  padding: 5px 20px;
+  border-radius: 14px;
+  cursor: pointer;
+  max-width: fit-content;
+  -moz-fit-content: fit-content;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.contact-btn:hover {
+  background-color: #1a6dff;
+  color: #fff;
+}

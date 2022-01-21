@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Featured from './pages/Featured';
 import Footer from './components/Footer';
+import ThankYou from './pages/ThankYou';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/featured" element={<Featured />} />
+        <Route path="/thankyou" element={< ThankYou />} />
+
       </Routes>
     </BrowserRouter>
     <Footer></Footer>

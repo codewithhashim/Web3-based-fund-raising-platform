@@ -1,9 +1,7 @@
 // Navbar jsx
 import { AiOutlineBell } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
-// import About from "../pages/about";
-// import Featured from "../pages/featured";
-// import Contact from "../pages/contact";
+
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -30,8 +28,8 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/featured" className="nav-link">
-                Featured
+              <Link to="/listing" className="nav-link">
+                Listing
               </Link>
             </li>
 

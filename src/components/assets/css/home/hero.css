@@ -23,7 +23,8 @@
 .hero-heading {
   font-size: 8.8rem;
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Sans", serif;
+  font-weight: 700;
 }
 .hero-heading-span {
   display: block;

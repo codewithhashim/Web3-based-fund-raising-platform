@@ -10,8 +10,7 @@ function AptTypes() {
       <div className="types-container">
         <div className="types-heading">
           <h3>
-            How would you like your <br />
-            <span>Dream Apartment</span>
+            Get Your Dream Apartment
           </h3>
           <p className="types-span">Select apartment types below</p>
         </div>

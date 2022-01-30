@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:wght@300;400;700&display=swap");
-/* Playfair Display */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+/* PT Sans */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
 *,
 *:before,
@@ -93,8 +93,7 @@ nav.nav-links ul li a:hover {
   border: 2px solid #707070;
 }
 .saved-search input::placeholder {
-  font-family: var(--body-text);
-  color: #111;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 .saved-search input:focus {

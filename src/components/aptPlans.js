@@ -2,10 +2,10 @@ import "./assets/css/home/apt-plans.css";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import deluxeBp from "./assets/deluxbp.png";
-import plans1 from "./assets/plans1.jpg"
-import plans2 from "./assets/plans2.jpg"
-import plans3 from "./assets/plans3.jpg"
-import plans4 from "./assets/plans4.jpg"
+import plans1 from "./assets/plans1.png"
+import plans2 from "./assets/plans2.png"
+import plans3 from "./assets/plans3.png"
+import plans4 from "./assets/plans4.png"
 
 
 

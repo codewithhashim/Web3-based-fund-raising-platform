@@ -3,10 +3,10 @@
 }
 .features-heading h3 {
   font-size: 4.8rem;
-  font-weight: 700;
+  font-weight: 400;
   margin: 30px;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Sans", serif;
 }
 .features-boxes {
   display: grid;

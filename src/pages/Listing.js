@@ -43,6 +43,7 @@ function Listing() {
           Price={data.Price}
           Title={data.Title}
           Description={data.Description}
+          image={data.image}
         />
       ))}
     </div>
@@ -51,7 +52,7 @@ function Listing() {
 }
 
 // Define how each display entry will be structured
-const Frame = ({ Price, Title, Description }) => {
+const Frame = ({ Price, Title, Description, image }) => {
   return (
     <div className="listing-div">
       
@@ -61,6 +62,16 @@ const Frame = ({ Price, Title, Description }) => {
 
       <span className="property-price"> {Price}</span>
 
+      <img
+        src={image}
+        alt=""
+        style={{
+          width: "200px",
+          height: "200px",
+          borderRadius: "50%",
+          margin: "10px",
+        }}
+      />
       <a href="#" className="property-purchase-link">
         Click
       </a>

@@ -13,8 +13,12 @@
 
 .about-container h1 {
   font-size: 3rem;
-  font-family: "PT Sans", serif;
+  font-family: "Montserrat", serif;
   color: #2289ff;
+}
+
+.about-text {
+  font-family: "Prompt", sans-serif;
 }
 .contact-btn {
   background-color: #2289ff;

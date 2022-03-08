@@ -3,7 +3,7 @@
 }
 .listing-container .listing-header {
   background: url(../../featured-bg.png) no-repeat right top;
-  min-height: calc(100vh - 8rem);
+  min-height: calc(70vh - 8rem);
   background-size: 40%;
   display: flex;
   justify-content: center;
@@ -21,17 +21,21 @@
 
 .listing-div {
   font-size: 1.6rem;
-  padding: 1rem;
   border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   background-color: #f2f2f2;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
   position: relative;
+  min-height: 200px;
+}
+.listing-content {
+  padding: 1rem;
   min-height: 150px;
 }
-
 .property-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .property-description {
@@ -50,13 +54,27 @@
   content: "$";
 }
 .property-purchase-link {
-  background-color: #1a6dff;
-  color: #fff;
+  color: #111;
   font-size: 2rem;
   padding: 5px 30px;
   border-radius: 14px;
   text-decoration: none;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  background: conic-gradient(
+      from 135deg at 50% -10px,
+      #1a6dff 90deg,
+      transparent 91deg
+    )
+    50% calc(-3px - 50%) / 100% 300% no-repeat;
+  transition: 0.5s;
+}
+.property-purchase-link:hover {
+  background-position: bottom;
+  color: #fff;
+}
+.property-image {
+  width: 100%;
+  max-width: 290px;
+  min-height: 250px;
 }

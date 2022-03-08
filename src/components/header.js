@@ -1,6 +1,5 @@
 // Navbar jsx
-import { AiOutlineBell } from "react-icons/ai";
-import { AiOutlineSearch } from "react-icons/ai";
+
 
 
 import React from "react";
@@ -42,13 +41,8 @@ function Header() {
         </nav>
 
       
-        <div className="saved-search">
-          <AiOutlineSearch className="search-icon" />
-          <input type="search" name="" id="" placeholder="Saved Search" />
-        </div>
-        <div className="notification-icon">
-          <AiOutlineBell className="bell" />
-        </div>
+        
+        
         <div className="user-login">
           <button>Login</button>
         </div>

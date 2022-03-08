@@ -1,4 +1,4 @@
-import "../components/assets/css/listing/listing.css"
+import "../components/assets/css/listing/listing.css";
 
 import db from "../firebase.config";
 
@@ -31,51 +31,41 @@ function Listing() {
   return (
     <div className="listing-container">
       <div className="listing-header">
-            <h2 className="listing-title">
-              Choose your DreamLand!
-            </h2>
+        <h2 className="listing-title">Choose your DreamLand!</h2>
       </div>
       <div className="property-grid">
-      
-
-      {info.map((data) => (
-        <Frame
-          Price={data.Price}
-          Title={data.Title}
-          Description={data.Description}
-          image={data.image}
-        />
-      ))}
-    </div>
+        {info.map((data) => (
+          <Frame
+            Price={data.Price}
+            Title={data.Title}
+            Description={data.Description}
+            Image={data.Image}
+          />
+        ))}
+      </div>
     </div>
   );
 }
 
 // Define how each display entry will be structured
-const Frame = ({ Price, Title, Description, image }) => {
+const Frame = ({ Price, Title, Description, Image }) => {
   return (
     <div className="listing-div">
-      
+      <img src={Image} alt="" className="property-image" />
+      <div className="listing-content">
         <h3 className="property-title"> {Title}</h3>
 
-      <p className="property-desc"> {Description}</p>
+        <p className="property-desc"> {Description}</p>
 
-      <span className="property-price"> {Price}</span>
+        <span className="property-price"> {Price}</span>
 
-      <img
-        src={image}
-        alt=""
-        style={{
-          width: "200px",
-          height: "200px",
-          borderRadius: "50%",
-          margin: "10px",
-        }}
-      />
-      <a href="#" className="property-purchase-link">
-        Click
-      </a>
-      
+        <a
+          href="https://calendly.com/thedubaibuilders/property-purchase"
+          className="property-purchase-link"
+        >
+          Book Meeting
+        </a>
+      </div>
     </div>
   );
 };

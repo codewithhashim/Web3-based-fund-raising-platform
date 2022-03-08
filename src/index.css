@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:wght@300;400;700&display=swap");
-/* PT Sans */
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&display=swap");
+
+/* Montserrate */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 *,
 *:before,
@@ -15,7 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Prompt", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -40,7 +41,7 @@ textarea {
   /* font-families */
   --font-family-logo-header: "Josefin Sans", sans-serif;
   --heading-button: "Josefin Sans", sans-serif;
-  --body-text: "Lato", sans-serif;
+  --body-text: "Prompt", sans-serif;
 }
 a {
   text-decoration: none;

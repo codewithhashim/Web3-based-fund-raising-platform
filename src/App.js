@@ -13,6 +13,7 @@ import About from './pages/About';
 import Listing from './pages/Listing';
 import Footer from './components/Footer';
 import ThankYou from './pages/ThankYou';
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 
 function App() {

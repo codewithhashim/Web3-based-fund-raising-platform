@@ -1,20 +1,21 @@
 // Navbar jsx
 
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const refresh = () => {
+    // window.location.reload();
+  };
+
   return (
     <header>
       <div className="header-container">
         <div className="logo">
           <Link to="/">WebParrots</Link>
         </div>
-      
-     
-          <nav className="nav-links">
+
+        <nav className="nav-links">
           <ul>
             <li>
               <Link to="/" className="nav-link">
@@ -27,7 +28,11 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/listing" className="nav-link">
+              <Link
+                to="/listing"
+                className="nav-link"
+                onClick={setTimeout(refresh, 2000)}
+              >
                 Listing
               </Link>
             </li>
@@ -40,9 +45,6 @@ function Header() {
           </ul>
         </nav>
 
-      
-        
-        
         <div className="user-login">
           <button>Login</button>
         </div>

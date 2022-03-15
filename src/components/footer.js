@@ -53,6 +53,8 @@ function Footer() {
           <p>&copy; 2022 Webparrots. All rights reserved.</p>
         </div>
       </div>
+    
+
     </footer>
   );
 }

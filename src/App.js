@@ -13,7 +13,7 @@ import About from './pages/About';
 import Listing from './pages/Listing';
 import Footer from './components/Footer';
 import ThankYou from './pages/ThankYou';
-import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import ChatWidget from './components/ChatWidget';
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
 
       </Routes>
     </BrowserRouter>
+    <ChatWidget></ChatWidget>
     <Footer></Footer>
     </div>
   );

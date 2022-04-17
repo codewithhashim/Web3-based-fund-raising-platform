@@ -2,6 +2,8 @@ import "../components/assets/css/listing/listing.css";
 
 import db from "../firebase.config";
 
+
+
 import React, { useState, useEffect } from "react";
 
 function Listing() {
@@ -41,7 +43,9 @@ function Listing() {
             Description={data.Description}
             Image={data.Image}
           />
-        ))}
+        ))
+        
+        }
       </div>
     </div>
   );
@@ -49,6 +53,7 @@ function Listing() {
 
 // Define how each display entry will be structured
 const Frame = ({ Price, Title, Description, Image }) => {
+  
   return (
     <div className="listing-div">
       <img src={Image} alt="" className="property-image" />
@@ -69,5 +74,6 @@ const Frame = ({ Price, Title, Description, Image }) => {
     </div>
   );
 };
+
 
 export default Listing;

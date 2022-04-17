@@ -4,6 +4,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import "./assets/css/footer.css";
+import React  from 'react';
 
 function Footer() {
   return (

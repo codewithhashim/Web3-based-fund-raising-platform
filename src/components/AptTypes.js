@@ -3,6 +3,7 @@ import studio from "./assets/studio.png";
 import top_ from "./assets/top_.png";
 import top_1 from "./assets/top_-1.png";
 import "./assets/css/home/apt-types.css";
+import React from 'react';
 
 function AptTypes() {
   return (

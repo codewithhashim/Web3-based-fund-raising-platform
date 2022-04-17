@@ -4,7 +4,8 @@ import db from "../firebase.config";
 
 
 
-import React, { useState, useEffect } from "react";
+
+import React, { useState } from "react";
 
 function Listing() {
   const [info, setInfo] = useState([]);

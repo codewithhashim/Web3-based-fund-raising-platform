@@ -4,6 +4,7 @@ import parking from "./assets/parking.png";
 import security from "./assets/security.png";
 import health from "./assets/health.png";
 import swimming from "./assets/swimming.png";
+import React from 'react';
 
 function AptFeatures() {
   return (

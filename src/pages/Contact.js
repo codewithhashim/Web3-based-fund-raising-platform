@@ -9,6 +9,7 @@ import {
 import "../components/assets/css/footer.css";
 import "../components/assets/css/contact/contact.css";
 import { Form, Button } from "react-bootstrap";
+import React from 'react';
 
 function Contact() {
   return (

@@ -6,6 +6,7 @@ import plans1 from "./assets/plans1.png"
 import plans2 from "./assets/plans2.png"
 import plans3 from "./assets/plans3.png"
 import plans4 from "./assets/plans4.png"
+import React from 'react';
 
 
 

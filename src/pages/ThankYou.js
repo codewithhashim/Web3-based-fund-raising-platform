@@ -1,5 +1,6 @@
 // Thank you page on form submit
 import "../components/assets/css/thankyou.css";
+import React from 'react';
 
 
 

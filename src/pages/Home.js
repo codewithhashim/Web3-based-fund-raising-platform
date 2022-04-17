@@ -2,6 +2,7 @@ import AptPlans from "../components/AptPlans";
 import AptTypes from "../components/AptTypes";
 import Hero from "../components/Hero";
 import AptFeatures from "../components/AptFeatures";
+import React from 'react';
 
 function Home() {
   return (

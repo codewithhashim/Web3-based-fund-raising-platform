@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+
 
 import "../components/assets/css/footer.css";
 import "../components/assets/css/about/about.css";
+import React from 'react';
 
 function About() {
   return (
